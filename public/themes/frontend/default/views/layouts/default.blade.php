@@ -58,9 +58,7 @@
 		<!--[if lt IE 9]>
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-		<![endif]-->
-
-		<link rel="shortcut icon" href="{{ Asset::getUrl('platform/img/favicon.png') }}">
+		<![endif]--> 
 
 		{{-- Compiled styles --}}
 		@foreach (Asset::getCompiledStyles() as $style)
@@ -80,9 +78,14 @@
 	@yield('main')
 	</section>
 
+<section class="content">
+	@include('partials.footer')
+	</section>
+
 	@foreach (Asset::getCompiledScripts() as $url)
     	<script src="{!! $url !!}"></script>
 	@endforeach
+
 
 	<script>
 $(document).ready(function() {

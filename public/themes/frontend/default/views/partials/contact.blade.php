@@ -2,10 +2,9 @@
 
 <p>
     From: {!! $name !!}
-    Email address: <?php echo ($from);?> <br>
-    Subject: <?php echo ($subject); ?><br>
-    Message: <?php echo ($body);?><br>
-    Date: <?php echo($time);?><br>
-    User IP address: <?php echo($ip);?><br>
-
+    Email address: {!! $from !!} <br>
+    Subject: {!! $subject !!}<br>
+    Message: {!! $body !!}<br>
+    Date: {!! $time['date'] !!}<br>
+    User IP address: {!! $ip !!}<br>
 </p>

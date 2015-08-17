@@ -1,6 +1,7 @@
 <?php namespace App\Http\Controllers;
 
 use Request;
+use App\Drapor\Mailers\ContactMailer;
 
 class ContactController extends Controller{
 
@@ -21,7 +22,7 @@ class ContactController extends Controller{
 		$body    = Request::input('body');
 		$ip      = Request::ip();
 
-		$mailer  = app(Drapor\Mailers\ContactMailer::class);
+		$mailer  = app(ContactMailer::class);
 
 		$mailer->send($name,$subject,$body,$email,$ip);
 

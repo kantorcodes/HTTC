@@ -8,3 +8,24 @@
 section.content{
 	 @include span-columns(12);
 }
+
+form{
+	 @include span-columns(12);
+	 padding-top:10%;
+	 padding-bottom:10%;
+}
+input[type="submit"]{
+  @extend %button;
+  @include appearance(none);
+  border: none;
+  cursor: pointer;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+input{
+   width:100%;
+   @include span-columns(12);
+}
+
