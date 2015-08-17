@@ -1,0 +1,141 @@
+
+
+$medium-screen: em(640);
+$large-screen: em(860);
+$base-accent-color: blue;
+$base-link-color: blue;
+$error-color:red;
+$notice-color:blue;
+$badge-success-color:green;
+$success-color:green;
+$medium-screen-up: new-breakpoint(min-width $medium-screen 4);
+$large-screen-up: new-breakpoint(min-width $large-screen 8);
+
+// Typography
+$sans-serif: $helvetica;
+$serif: $georgia;
+$base-font-family: 'Source Sans', $sans-serif;
+$header-font-family: 'Gentium Book Basic', $base-font-family;
+        
+// Font Sizes
+$base-font-size: 18px;
+$h1-font-size-large: $base-font-size * 3;
+$h1-font-size: $base-font-size * 2.5;
+$h2-font-size: $base-font-size * 2;
+$h3-font-size: $base-font-size * 1.75;
+$h4-font-size: $base-font-size * 1.5;
+$h5-font-size: $base-font-size * 1.25;
+$h6-font-size: $base-font-size;
+$time-font-size: 18px;
+        
+// Font Weights
+$header-font-weight: 400;
+$time-font-weight: 600;
+
+
+// Bootstrap shades
+$primary: #19FF8F;
+$success: #06d88e;
+$info: #8ebac3;
+$warning: #f25839;
+$danger: #f20249;
+$white : #ffffff;
+$black : #000000;
+$brand-primary: $primary;
+$brand-success: $success;
+$brand-danger: $danger;
+$brand-warning: $warning;
+$brand-info: $info;
+
+
+// Typography elements for Material
+$darkbg-text: rgba(255,255,255, 0.9);;
+$lightbg-text: rgba(0,0,0,0.5);
+$icon-color: rgba(0,0,0,0.5);
+
+
+// Bootstrap variables
+$body-bg: #fff;
+
+$btn-default: transparent;
+$btn-default-text: $lightbg-text;
+
+$btn-primary: $primary;
+$btn-primary-text: $darkbg-text;
+
+$btn-success: $success;
+$btn-success-text: $darkbg-text;
+
+$btn-info: $info;
+$btn-info-text: $darkbg-text;
+
+$btn-warning: $warning;
+$btn-warning-text: $darkbg-text;
+
+$btn-danger: $danger;
+$btn-danger-text: $darkbg-text;
+
+$input-unchecked: rgba(137, 137, 137, 0.3);
+$input-checked: rgba(15, 157, 88, 0.3);
+
+$radio-default: $lightbg-text;
+$radio-primary: $primary;
+$radio-success: $success;
+$radio-info:    $info;
+$radio-warning: $warning;
+$radio-danger:  $danger;
+
+$input-danger: $danger;
+$input-default: $primary;
+$input-warning: $warning;
+$input-success: $success;
+$input-info:    $info;
+
+$alert-success: $success;
+$alert-info: $info;
+$alert-warning: $warning;
+$alert-danger: $danger;
+
+$progress-success: $success;
+$progress-info: $info;
+$progress-warning: $warning;
+$progress-danger: $danger;
+
+// Global Material variables
+$material-border-radius: 2px;
+$input-underline-color: #D2D2D2;
+
+// Card
+$card-body-text:#939598;
+$card-body-background:  #F1F2F2;
+$card-image-headline: #F1F2F2;
+
+$text-disabled: #a8a8a8;
+$background-disabled: #eaeaea;
+
+// Checkboxes
+$checkbox-size: 20px;
+$checkbox-animation-ripple: 500ms;
+$checkbox-animation-check: 0.3s;
+
+// Popovers and Popups
+$popover-background: rgba(101, 101, 101, 0.9);
+$popover-color: #ececec;
+
+
+
+$primary-color: $primary !default;
+$primary-color-light: false !default;
+$primary-color-dark: false !default;
+$secondary-color: $info !default;
+$success-color: $success !default;
+$error-color: $danger !default;
+
+$link-color: $info !default;
+
+//screen size variabels for fast media querey//
+$small-break: 475px;
+$med-break: 775px;
+
+
+
