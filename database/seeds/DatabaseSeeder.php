@@ -17,8 +17,8 @@ class DatabaseSeeder extends Seeder
         $this->call(AttributesTableSeeder::class);
 
         $mike =  [
-         'email' =>   'info@empathynyc.com',
-          'password' => Hash::make('password'), 
+         'email'     => 'info@empathynyc.com',
+          'password' => env('MIKE_PASSWORD'), 
         ];
 
         $permission = [
