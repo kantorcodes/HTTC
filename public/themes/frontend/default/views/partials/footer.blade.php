@@ -7,7 +7,7 @@
     <nav role="navigation">
       <ul id="js-navigation-menu" class="navigation-menu show">
       <li class="nav-link"><a href="javascript:void(0)">&copy 2015</a></li>
-     <li class="nav-link"><a href="http://mkmade.me">Made With 💙  by Michael Kantor</a></li>
+     <li class="nav-link"><a href="http://mkmade.me">Crafted With 💙  by Michael Kantor</a></li>
       </ul>
     </nav>
   </div>

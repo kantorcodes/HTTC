@@ -5,5 +5,6 @@
 
 @section('main')
 
+@include('partials.article')
 
 @endsection

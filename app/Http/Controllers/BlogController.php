@@ -18,7 +18,17 @@ class BlogController extends Controller{
 
 	}
 
-	public function show(){
+	public function show($slug)
+	{
+		$post                = $this->content->findBySlug($slug);;
+		$view['post']        = $post;
+		$view['title']       = $post->title;
+		$view['description'] = $post->summary;
+		$view['author']      = $post->author;
+		$view['thumbnail']   = isset($post->file) ? $post->file : '';
+		$view['isPost']      = true;
+
+		return view('pages.blog.show',$view);
 
 	}
 }

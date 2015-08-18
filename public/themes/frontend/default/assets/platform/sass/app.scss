@@ -4,6 +4,7 @@
 @import 'bitters/base';
 @import 'node-refills/assets/stylesheets/all';
 @import 'nav';
+@import 'badges';
 
 section.content{
 	 @include span-columns(12);
